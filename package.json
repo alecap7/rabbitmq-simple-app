@@ -1,0 +1,16 @@
+{
+  "name": "rabbitmq-simple-app",
+  "version": "1.0.0",
+  "description": "PoC for RabbitMQ",
+  "scripts": {
+    "send": "node -r dotenv/config publisher/send",
+    "receive": "node -r dotenv/config consumer/receive"
+  },
+  "keywords": [],
+  "author": "Alessandro Capogna",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "dotenv": "^8.2.0"
+  }
+}
